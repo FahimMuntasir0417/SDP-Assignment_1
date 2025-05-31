@@ -1,0 +1,56 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+.nav-item:hover {
+  background: #70abe7 !important;
+  border-radius: 5px;
+}
+
+.skill-tag {
+  display: inline-block;
+  background-color: #4a4a4a;
+  color: #eae8ed;
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0.25rem;
+}
+
+.btn {
+  color: aqua;
+  padding: 5px;
+  background-color: #73b3f3;
+  border-radius: 2px;
+}
+.form-container {
+  background-color: #1f1f22;
+  padding: 2rem;
+  border-radius: 0.75rem;
+
+  max-width: 500px;
+  width: 100%;
+}
+
+.versity {
+  text-align: center;
+}
+
+.form-control-custom {
+  background-color: #1a1a1a;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+
+  border-radius: 0.175rem;
+  padding: 0.75rem 1rem;
+}
+.form-control-custom::placeholder {
+  color: #d5e1e3;
+}
+
+footer {
+  background-color: #302f2f;
+}
